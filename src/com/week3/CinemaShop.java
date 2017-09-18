@@ -26,6 +26,16 @@ public class CinemaShop {
                 break;
             }
         }
+    }
+
+    public void printSupplies()
+    {
+        for (DrinkSupply drinkSupply:drinkSupplies) {
+            drinkSupply.print();
+        }
+        for (SnackSupply snackSupply:snackSupplies) {
+            snackSupply.print();
+        }
 
     }
 }
