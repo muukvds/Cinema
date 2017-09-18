@@ -18,7 +18,7 @@ public class CinemaShop {
 
     public void addSnackSupplie(SnackSupply snackSupplie) {
 
-        for(int i =0;1<snackSupplies.length;i++)
+        for(int i =0;i<snackSupplies.length;i++)
         {
             if(snackSupplies[i] != null)
             {
