@@ -30,6 +30,7 @@ public class CinemaShop {
 
     public void printSupplies()
     {
+        System.out.println("CinemaShop voorraad:");
         for (DrinkSupply drinkSupply:drinkSupplies) {
             drinkSupply.print();
         }
