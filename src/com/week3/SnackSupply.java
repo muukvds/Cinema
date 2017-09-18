@@ -16,4 +16,9 @@ public class SnackSupply {
     public void setSupply(int supply) {
         this.supply = supply;
     }
+
+    public void print()
+    {
+        System.out.println(name +" - voorraad " + supply+", prijs: "+ price);
+    }
 }
