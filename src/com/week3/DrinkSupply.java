@@ -5,15 +5,9 @@ public class DrinkSupply {
     private int price;
     private int supply;
 
-    public void setName(String name) {
+    public DrinkSupply(String name, int price, int supply) {
         this.name = name;
-    }
-
-    public void setPrice(int price) {
         this.price = price;
-    }
-
-    public void setSupply(int supply) {
         this.supply = supply;
     }
 
