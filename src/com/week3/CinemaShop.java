@@ -6,7 +6,7 @@ public class CinemaShop {
     private SnackSupply[] snackSupplies = new SnackSupply[10];
 
     public void addDrinkSupplie(DrinkSupply drinkSupplie) {
-        for(int i =0;1<drinkSupplies.length;i++)
+        for(int i =0;i<drinkSupplies.length;i++)
         {
             if(drinkSupplies[i] != null)
             {
